@@ -7,18 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A218D03C20D9596000021695 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A218D03A20D9596000021695 /* Main.storyboard */; };
+		A218D03D20D9596000021695 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A218D03B20D9596000021695 /* LaunchScreen.storyboard */; };
 		A21C196420D951F700C7E889 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21C196320D951F700C7E889 /* AppDelegate.swift */; };
-		A21C196920D951F700C7E889 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A21C196720D951F700C7E889 /* Main.storyboard */; };
 		A21C196B20D951F700C7E889 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A21C196A20D951F700C7E889 /* Assets.xcassets */; };
-		A21C196E20D951F700C7E889 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A21C196C20D951F700C7E889 /* LaunchScreen.storyboard */; };
+		F67494CCFD556EDE33ED4B50 /* Pods_Eat_Share.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16D41C620AD20F2A8CC0ADC8 /* Pods_Eat_Share.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		16D41C620AD20F2A8CC0ADC8 /* Pods_Eat_Share.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Eat_Share.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AAE8A0F297003E15BDAC4BF /* Pods-Eat&Share.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Eat&Share.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Eat&Share/Pods-Eat&Share.debug.xcconfig"; sourceTree = "<group>"; };
+		A1F24E517D55C20B99600FD1 /* Pods-Eat&Share.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Eat&Share.release.xcconfig"; path = "Pods/Target Support Files/Pods-Eat&Share/Pods-Eat&Share.release.xcconfig"; sourceTree = "<group>"; };
+		A218D03A20D9596000021695 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		A218D03B20D9596000021695 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A21C196020D951F700C7E889 /* Eat&Share.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Eat&Share.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A21C196320D951F700C7E889 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A21C196820D951F700C7E889 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A21C196A20D951F700C7E889 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A21C196D20D951F700C7E889 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A21C196F20D951F700C7E889 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -27,17 +31,94 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F67494CCFD556EDE33ED4B50 /* Pods_Eat_Share.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5AEF774B7704561F362D02D1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				16D41C620AD20F2A8CC0ADC8 /* Pods_Eat_Share.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A218D03E20D9597E00021695 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		A218D03F20D9598700021695 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		A218D04020D9599200021695 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		A218D04120D9599E00021695 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		A218D04220D959A400021695 /* Presenters */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presenters;
+			sourceTree = "<group>";
+		};
+		A218D04320D959AA00021695 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				A218D03A20D9596000021695 /* Main.storyboard */,
+				A218D03B20D9596000021695 /* LaunchScreen.storyboard */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		A218D04420D959AE00021695 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A21C196A20D951F700C7E889 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A218D04520D959BA00021695 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		A218D04620D959E300021695 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
 		A21C195720D951F700C7E889 = {
 			isa = PBXGroup;
 			children = (
 				A21C196220D951F700C7E889 /* Eat&Share */,
 				A21C196120D951F700C7E889 /* Products */,
+				F0B6934C48C2526C0FD54193 /* Pods */,
+				5AEF774B7704561F362D02D1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,83 +135,26 @@
 			children = (
 				A21C196320D951F700C7E889 /* AppDelegate.swift */,
 				A21C196F20D951F700C7E889 /* Info.plist */,
-				A21C198120D9568000C7E889 /* Base */,
-				A21C198220D9568500C7E889 /* Utils */,
-				A21C198520D956C800C7E889 /* Entities */,
-				A21C198420D9568E00C7E889 /* ViewControllers */,
-				A21C198620D956CC00C7E889 /* Presentes */,
-				A21C198820D956DD00C7E889 /* Protocols */,
-				A21C198720D956D400C7E889 /* Repositories */,
-				A21C198920D956E300C7E889 /* UI */,
-				A21C198320D9568900C7E889 /* Resources */,
+				A218D03E20D9597E00021695 /* Base */,
+				A218D03F20D9598700021695 /* Utils */,
+				A218D04020D9599200021695 /* Entities */,
+				A218D04120D9599E00021695 /* ViewControllers */,
+				A218D04220D959A400021695 /* Presenters */,
+				A218D04620D959E300021695 /* Protocols */,
+				A218D04520D959BA00021695 /* Repositories */,
+				A218D04320D959AA00021695 /* UI */,
+				A218D04420D959AE00021695 /* Resources */,
 			);
 			path = "Eat&Share";
 			sourceTree = "<group>";
 		};
-		A21C198120D9568000C7E889 /* Base */ = {
+		F0B6934C48C2526C0FD54193 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
+				6AAE8A0F297003E15BDAC4BF /* Pods-Eat&Share.debug.xcconfig */,
+				A1F24E517D55C20B99600FD1 /* Pods-Eat&Share.release.xcconfig */,
 			);
-			path = Base;
-			sourceTree = "<group>";
-		};
-		A21C198220D9568500C7E889 /* Utils */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Utils;
-			sourceTree = "<group>";
-		};
-		A21C198320D9568900C7E889 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				A21C196A20D951F700C7E889 /* Assets.xcassets */,
-			);
-			path = Resources;
-			sourceTree = "<group>";
-		};
-		A21C198420D9568E00C7E889 /* ViewControllers */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ViewControllers;
-			sourceTree = "<group>";
-		};
-		A21C198520D956C800C7E889 /* Entities */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Entities;
-			sourceTree = "<group>";
-		};
-		A21C198620D956CC00C7E889 /* Presentes */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Presentes;
-			sourceTree = "<group>";
-		};
-		A21C198720D956D400C7E889 /* Repositories */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Repositories;
-			sourceTree = "<group>";
-		};
-		A21C198820D956DD00C7E889 /* Protocols */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Protocols;
-			sourceTree = "<group>";
-		};
-		A21C198920D956E300C7E889 /* UI */ = {
-			isa = PBXGroup;
-			children = (
-				A21C196720D951F700C7E889 /* Main.storyboard */,
-				A21C196C20D951F700C7E889 /* LaunchScreen.storyboard */,
-			);
-			path = UI;
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +164,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A21C197220D951F700C7E889 /* Build configuration list for PBXNativeTarget "Eat&Share" */;
 			buildPhases = (
+				32F65EC9367E8D459A8496EB /* [CP] Check Pods Manifest.lock */,
 				A21C195C20D951F700C7E889 /* Sources */,
 				A21C195D20D951F700C7E889 /* Frameworks */,
 				A21C195E20D951F700C7E889 /* Resources */,
@@ -192,13 +217,34 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A21C196E20D951F700C7E889 /* LaunchScreen.storyboard in Resources */,
+				A218D03D20D9596000021695 /* LaunchScreen.storyboard in Resources */,
 				A21C196B20D951F700C7E889 /* Assets.xcassets in Resources */,
-				A21C196920D951F700C7E889 /* Main.storyboard in Resources */,
+				A218D03C20D9596000021695 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		32F65EC9367E8D459A8496EB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Eat&Share-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A21C195C20D951F700C7E889 /* Sources */ = {
@@ -210,25 +256,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		A21C196720D951F700C7E889 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A21C196820D951F700C7E889 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		A21C196C20D951F700C7E889 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A21C196D20D951F700C7E889 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		A21C197020D951F700C7E889 /* Debug */ = {
@@ -340,6 +367,7 @@
 		};
 		A21C197320D951F700C7E889 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6AAE8A0F297003E15BDAC4BF /* Pods-Eat&Share.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -355,6 +383,7 @@
 		};
 		A21C197420D951F700C7E889 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1F24E517D55C20B99600FD1 /* Pods-Eat&Share.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
